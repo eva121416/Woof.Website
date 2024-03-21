@@ -43,10 +43,3 @@ footer a:hover {
 		0 0 .5em white;
 }
 
-.video-screen-one {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 40%;
-  min-height: 40%;
-}
