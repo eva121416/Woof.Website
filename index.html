@@ -13,7 +13,7 @@
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-    <title>PRJ4 Base Group Template &mdash; Landing Page</title>
+    <title>PRJ4 Base Group Template &mdash; Hero Section UX</title>
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
@@ -33,14 +33,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-           
+            
             
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Shop
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
+                <li><a class="dropdown-item active" aria-current="page" href="index.html#quiz">Hero Section</a></li>
                 <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
@@ -63,14 +63,124 @@
       </div>
     </nav>
     <!-- End of navigation bar -->
+	  
 
-    <!-- Start of main placeholder in landing page -->
-    <main class="d-flex flex-column justify-content-center align-items-center">
-      <img class="mb-4 h-25" src="images/woof-logo.png" alt="Woof Logo">
-      <h1>Woof</h1>
-      <h5 class="fst-italic mb-5">Every dog has a different woof!</h5>
+    <section class="container my-4">
+      <div class="border-start border-primary border-5 p-2 bg-primary bg-opacity-10 rounded">
+        <p>You can use this hero section to focus the reader's attention on a few words and calls to action.</p>
+        <p>This is inspired by <a href="https://getbootstrap.com/docs/5.1/examples/album/" target="_blank">Bootstrap's Album example</a>.</p>
+      </div>
+    </section>
+
+      
+	  <video autoplay loop muted class="w-100 m-0 ">
+                <source src="images/video-mainpage.mp4" type="video/mp4">
+            </video>
+
+	  
+    <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
+    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
+      <div class="row" id="quiz">
+        <div class="col-md-8 col-lg-9 mx-auto py-5">
+          <h1 class="display-3">Get personalized nutrition for your dog</h1>
+          <p class="lead">Take our quiz now!</p>
+          <p class="mt-5"> 
+            <a href="#" class="btn btn-lg btn-warning m-1 d-block d-sm-inline">Call to action</a>
+            <a href="#" class="btn btn-lg btn-danger m-1 d-block d-sm-inline">Another call to action</a>
+          </p>
+        </div>
+      </div>
+    </header>
+    <!-- End of hero section -->
+	  
+	  <h1> Shop our bestsellers</h1>
+	  
+	 <main class="container my-4">
+      <div class="row g-3 justify-content-evenly">
+	  
+	    <div class="col-sm-6 col-lg-4 col-xl-3">
+          <div class="card shadow h-100">
+            <img class="img-fluid" src="images/treats-pink.png" alt="Treats pink">
+             <div class="card-body">
+              <h5 class="card-title">Beetroot and chicken</h5>
+              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+             </div>
+           <div class="card-footer p-2 text-end">
+              <a href="#" class="btn btn-primary">Learn more</a>
+           </div>
+          </div>
+        </div>
+	  
+	   <div class="col-sm-6 col-lg-4 col-xl-3">
+          <div class="card shadow h-100">
+            <img class="img-fluid" src="images/treats-green.png" alt="Treats green">
+            <div class="card-body">
+              <h5 class="card-title">Chicken</h5>
+              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
+            </div>
+            <div class="card-footer p-2 text-end">
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+		  
+		   <div class="col-sm-6 col-lg-4 col-xl-3">
+          <div class="card shadow h-100">
+            <img class="img-fluid" src="images/treats-blue.png" alt="Treats blue">
+            <div class="card-body">
+              <h5 class="card-title">Carrot and lamb&nbsp;</h5>
+              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+            </div>
+            <div class="card-footer p-2 text-end">
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+		  
+	  </div>
     </main>
-    <!-- End of main placeholder -->
+
+    <!-- A footer with socials -->
+    <footer class="shadow-lg mt-auto py-4 bg-body">
+      <div class="container d-flex justify-content-between align-items-center">
+        <p>
+          © 2020&ndash;2024 &mdash; Breda University of Applied Sciences
+        </p>
+        <ul class="list-unstyled d-flex align-items-center opacity-75">
+          <li>
+            <a href="https://www.facebook.com/bredauniversityas" target="_blank">
+              <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/school/bredauniversityas/" target="_blank">
+              <img class="m-2" src="images/linkedin.svg" alt="Follow us on LinkedIn" width="26">
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/bredauas" target="_blank">
+              <img class="m-2" src="images/twitter.svg" alt="Follow us on Twitter" width="26">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/BredaUniversityofAppliedSciences" target="_blank">
+              <img class="m-2" src="images/youtube.svg" alt="Follow us on YouTube" width="26">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/bredauniversityas/" target="_blank">
+              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@bredauniversityas" target="_blank">
+              <img class="m-2" src="images/tiktok.svg" alt="Follow us on TikTok" width="26">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- End of the footer -->
 
   </body>
 </html>
