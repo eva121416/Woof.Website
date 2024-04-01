@@ -2,6 +2,44 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
+
+/* Custom classes for Woof */
+.woof-off-white {
+	color: #FFFAF2;
+}
+
+.woof-light-green {
+	colour: #DCE4B8;
+}
+
+.woof-dark-green {
+	color: #2E4C17;
+}
+
+.woof-orange {
+	colour: #FD6F2F;
+}
+
+.woof-brown {
+	color: #573616;
+}
+
+.woof-border-orange {
+	border-color: #FD6F2F !important;
+}
+
+.woof-border-light-green {
+	border-color: #DCE4B8 !important;
+}
+
+.woof-bg-light-green {
+	background-color: #DCE4B8;
+}
+
+.woof-bg-off-white {
+	background-color: #FFFAF2;
+}
+
 /* Changing the main font and background colour */
 
 body {
@@ -18,25 +56,13 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+background-color:#FFFAF2;
 }
 
 /* Effect on social media buttons */
 
 footer a:hover {
 	opacity: .5;
-}
-
-/*Example Page */
-.video-container:after {
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(black, .2);
-  z-index: 1;
 }
 
 /* Corporate navbar */
@@ -53,17 +79,4 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
-}
-
-#hero-background-video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 10%;
-  top: 10%;
-  transform: translate(-30%, -40%);
-  z-index: -1;
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: contain;
 }
