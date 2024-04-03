@@ -131,3 +131,10 @@ input[type=submit]:hover {
 	object-fit: cover;
 	object-position: 50% 30%;
 }
+
+.header-bg-image {
+	 background-image: url('../images/main-photo.jpg');
+	 background-size: cover;
+	 max-width: 100%;
+	 background-position: 50% 25%;
+}
