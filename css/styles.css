@@ -33,7 +33,11 @@
 }
 
 .woof-border-brown {
-	border-color: #573616;
+	border-color: #573616 !important;
+}
+
+.woof-border-dark-green {
+	border-color: #2E4C17 !important;
 }
 
 .woof-bg-light-green {
@@ -119,4 +123,11 @@ input[type=submit]:hover {
   heighy: 200px;
   color: #FFFAF2;
 	
+}
+
+.dog-header {
+	height: 75vh;
+	min-height: 35rem;
+	object-fit: cover;
+	object-position: 50% 30%;
 }
