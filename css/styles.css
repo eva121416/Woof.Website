@@ -3,14 +3,14 @@
 /* Custom fonts for Woof */
 
 .woof-font-title {
-  font-family: "STIX Two Text", serif;
+  font-family: "STIX Two Text", Arial, serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
 .woof-font-title-shadow {
-  font-family: "STIX Two Text", serif;
+  font-family: "STIX Two Text", Arial, serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -19,7 +19,7 @@
 }
 
 .woof-font-body-shadow {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -28,7 +28,7 @@
 }
 
 .woof-font-body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 200;
   font-style: normal;
 }
@@ -83,12 +83,6 @@
 body {
 	font-family: Raleway, sans-serif;
 	background-color: #DCE4B8;
-}
-
-/* Changing the background colour for the header */
-
-header {
-	background-color: #000060;
 }
 
 /* Changing the background color for the navigation bar */
