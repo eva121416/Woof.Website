@@ -1,7 +1,37 @@
 /* Importing a Google Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+/* Custom fonts for Woof */
 
+.woof-font-title {
+  font-family: "STIX Two Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.woof-font-title-shadow {
+  font-family: "STIX Two Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px 4px #000000;	 
+  colour: #FD6F2F;
+}
+
+.woof-font-body-shadow {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 1px 1px 3px #000000;	 
+  colour: #FFFAF2;
+}
+
+.woof-font-body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
 
 /* Custom classes for Woof */
 .woof-off-white {
