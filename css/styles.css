@@ -1,5 +1,11 @@
 /* Importing a Google Font */
 
+/* Changing the background colour for the header */
+
+header {
+	background-color: #2E4C17;
+}
+
 /* Custom fonts for Woof */
 
 .woof-font-title {
@@ -31,6 +37,12 @@
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 200;
   font-style: normal;
+}
+
+.woof-font-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
 /* Custom classes for Woof */
